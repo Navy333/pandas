@@ -1,0 +1,55 @@
+Netflix Data Analytics Project using Python & Pandas
+Welcome to my Netflix Data Analytics project! In this analysis, I explored Netflix's dataset using Python and powerful libraries like Pandas to uncover valuable insights related to content and business decisions.
+
+📌 Project Overview
+This project highlights how to clean, analyze, and visualize real-world data using Python libraries such as Pandas, Matplotlib, and Seaborn. The primary goal is to extract meaningful trends and solve practical business questions based on Netflix's content catalog.
+
+🔍 Key Questions Answered
+
+Here are some of the core business and content-related questions addressed in the analysis:
+
+     What is the show ID and director of House of Cards?
+
+     In which year were the most TV Shows and Movies released? (Visualized using a bar chart)
+
+    What's the count of TV Shows vs Movies on Netflix? (Bar graph representation)
+
+     List of all movies released in 2020.
+
+     TV Shows released exclusively in India.
+
+     Top 10 directors with the most titles on Netflix.
+
+     All records where:
+
+        1)Category is Movie and Genre is Comedies, OR
+
+        2)Country is the United Kingdom
+
+     How many shows or movies feature Tom Cruise in the cast?
+
+     Overview of different ratings defined by Netflix.
+
+     Number of TV-14 rated movies in Canada.
+
+     Number of R rated TV Shows released after 2018.
+
+     Countries with the highest number of TV Shows individually.
+
+     How to sort the dataset by release year.
+
+     Find instances where:
+
+        1)Category is Movie and Genre is Dramas, OR
+
+        2)Category is TV Show and Genre is Kids' TV
+
+🛠️ Tools & Technologies Used
+
+    Python 3
+
+    Pandas – for data manipulation
+
+    Matplotlib / Seaborn – for data visualization
+
+    Jupyter Notebook – as the development environment
