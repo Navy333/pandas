@@ -1,0 +1,39 @@
+🧠 Project Summary
+This project analyzes a car dataset using the Pandas library in Python, exploring various factors like engine size, fuel efficiency, and pricing. It provides insights into car types, origins, and performance metrics across different models.
+
+ Commands Used in the Project
+
+    import pandas as pd – To import the Pandas library
+
+    pd.read_csv() – To read the CSV file into a DataFrame
+
+    head() – Displays the first 5 rows of the dataset
+
+    shape – Returns the number of rows and columns
+
+    df.isnull().sum() – Identifies missing values in each column
+
+    fillna() – Fills missing values with a specified value (like mean)
+
+    value_counts() – Shows unique values and their counts in a column
+
+    isin() – Filters records containing specific values
+
+    apply() – Applies a function along any axis of the DataFrame
+
+📌 Questions & Instructions Solved
+
+Q1: Data Cleaning
+Find all Null values and fill them with the mean of their respective columns using fillna(df.mean()).
+
+Q2: Based on Value Counts
+ Display the different types of car manufacturers (Make) and their count using df['Make'].value_counts().
+
+Q3: Filtering Records
+ Show all records where Origin is either 'Asia' or 'Europe' using df[df['Origin'].isin(['Asia', 'Europe'])].
+
+Q4: Removing Unwanted Records
+ Remove rows where Weight is above 4000 using df = df[df['Weight'] <= 4000].
+
+Q5: Applying Function
+ Increase all values in the MPG_City column by 3 using df['MPG_City'] = df['MPG_City'].apply(lambda x: x + 3).
