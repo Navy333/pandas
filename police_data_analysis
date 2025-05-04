@@ -1,0 +1,60 @@
+ Police Traffic Stop Data Analysis with Pandas
+📌 Description
+
+This project involves exploratory data analysis and preprocessing on a police traffic stop dataset using the Pandas library. The objective is to clean the data, extract insights, and perform group-based and categorical analysis to uncover patterns related to violations, driver demographics, and stop durations.
+🛠️ Technologies Used
+
+    Python 🐍
+
+    Pandas
+
+    Jupyter Notebook
+
+📂 Dataset Overview
+
+The dataset contains information on traffic stops, including:
+
+    Date and time of stop
+
+    Driver demographics (gender, race, age)
+
+    Violation type
+
+    Search and arrest status
+
+    Stop duration
+
+    Drug-related information
+
+🧹 Data Cleaning & Preprocessing Tasks
+
+    Missing Values:
+
+        Removed columns with entirely null values using .drop().
+
+    Filtering and Aggregation:
+
+        Used value_counts() to determine whether men or women were stopped more for speeding.
+
+        Analyzed who is more likely to be searched during a stop, grouped by gender using .groupby().
+
+    Data Mapping & Transformation:
+
+        Converted categorical stop_duration values into numeric estimates using .map().
+
+        Calculated the mean stop duration after conversion.
+
+    Grouped Statistical Summaries:
+
+        Compared age distributions across different violations using groupby().describe() for statistical insights.
+ Outcomes
+
+    Cleaned and structured the dataset for meaningful analysis.
+
+    Found that men were stopped more for speeding.
+
+    Observed that search likelihood varied by gender.
+
+    Calculated average stop durations by mapping descriptive durations to numeric.
+
+    Provided violation-wise age distribution using grouped summary statistics.
