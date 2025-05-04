@@ -1,0 +1,44 @@
+📌 Description
+
+This project focuses on data preprocessing and exploration using the Pandas library in Python. A CSV dataset containing vehicle information was analyzed and cleaned to prepare it for further insights and modeling.
+ Technologies Used
+
+    Python 🐍
+
+    Pandas Library
+
+    Jupyter Notebook
+
+📊 Key Operations Performed
+
+    Data Importing:
+
+        Loaded the dataset using pandas.read_csv() for analysis in Jupyter Notebook.
+
+    Initial Data Exploration:
+
+        Used .head() to preview the dataset.
+
+        Checked dataset dimensions using .shape.
+
+    Missing Value Handling:
+
+        Identified missing/null values using df.isnull().sum().
+
+        Replaced null values in numeric columns with their column-wise mean using fillna().
+
+    Value Counts:
+
+        Analyzed the frequency of car 'Make' types using value_counts() to understand brand distribution.
+
+    Data Filtering:
+
+        Used isin() to filter records where the 'Origin' is either Asia or Europe.
+
+    Data Cleaning:
+
+        Removed all records with Weight > 4000 lbs to eliminate outliers using conditional filtering.
+
+    Column-wise Transformation:
+
+        Increased values in the 'MPG_City' column by 3 using the apply() function to simulate an improvement in fuel efficiency.
